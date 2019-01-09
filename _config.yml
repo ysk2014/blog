@@ -20,7 +20,7 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 permalink: /articles/:year-:month/:title
 
-url: "http://yjshare.com"
+url: "http://www.yjshare.com"
 
 kramdown:
     auto_ids: true
