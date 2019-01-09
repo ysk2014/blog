@@ -9,12 +9,4 @@ image:
     creditlink: https://unsplash.com/photos/2xEQDxB0ss4
 ---
 
-## Code Snippets
-
-```css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-```
+## 新年新气象
