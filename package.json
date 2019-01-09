@@ -1,0 +1,19 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "I'm planning to refactor Leonids theme!!!",
+    "main": "index.js",
+    "scripts": {
+        "start": "bundle exec jekyll serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ysk2014/blog.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ysk2014/blog/issues"
+    },
+    "homepage": "https://github.com/ysk2014/blog#readme"
+}
