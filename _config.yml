@@ -20,7 +20,7 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 permalink: /articles/:year-:month/:title
 
-url: "https://ysk2014.github.io/blog"
+url: "http://yjshare.com"
 
 kramdown:
     auto_ids: true
@@ -36,9 +36,9 @@ kramdown:
 #
 owner:
     name: Cluas的博客
-    avatar: leonids-logo.png
-    job: 'Cluas的博客'
-    bio: 'Cluas的博客'
+    # avatar: leonids-logo.png
+    # job: 'Cluas的博客'
+    # bio: 'Cluas的博客'
     email:
     disqus-shortname:
     twitter: #username
@@ -50,7 +50,7 @@ owner:
         ad-client:
         ad-slot:
     bing-verify:
-    github: #username
+    github: ysk2014
     gitlab: #username
     stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
     linkedin: #username
