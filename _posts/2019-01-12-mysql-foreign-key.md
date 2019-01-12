@@ -3,8 +3,6 @@ layout: post
 title: 'MySQL外键约束OnDelete和OnUpdate的使用'
 excerpt: 'mysql'
 categories: [mysql]
-image:
-    feature: python-name.png
 ---
 
 `On Delete` 和 `On Update` 都有 `Restrict`, `No Action`, `CasCade`, `Set Null` 属性，现在分别对他们的属性含意做个解释。
