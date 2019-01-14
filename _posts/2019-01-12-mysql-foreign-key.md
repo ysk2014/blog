@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'MySQL外键约束OnDelete和OnUpdate的使用'
+excerpt: 'MySQL基础知识'
 categories: [mysql]
 ---
 
