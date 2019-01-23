@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Python中list.sort方法和内置函数sorted区别'
+title: 'Python列表排序方法sort、sorted技巧篇'
 excerpt: 'python基础知识'
 categories: [python基础知识]
 ---
@@ -81,4 +81,28 @@ list.sort()和 sorted()都接受一个 reverse (True | False) 来表示升序或
 ```python
 >>> sorted(student_tuples, key=itemgetter(2), reverse=True)
 [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
+```
+
+### 排序的稳定性和复杂排序
+
+从 python2.2 开始，排序被保证为稳定的。意思是说多个元素如果有相同的 key，则排序前后他们的先后顺序不变。
+
+```python
+
+>>> data = [('red', 1), ('blue', 1), ('red', 2), ('blue', 2)]
+>>> sorted(data, key=itemgetter(0))
+[('blue', 1), ('blue', 2), ('red', 1), ('red', 2)]
+
+```
+
+注意在排序后'blue'的顺序被保持了，即'blue', 1 在'blue', 2 的前面。
+
+更复杂地你可以构建多个步骤来进行更复杂的排序，例如对 student 数据先以 grade 降序排列，然后再以 age 升序排列。
+
+```python
+
+>>> s = sorted(student_objects, key=attrgetter('age'))     # sort on secondary key
+>>> sorted(s, key=attrgetter('grade'), reverse=True)       # now sort on primary key, descending
+[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+
 ```
