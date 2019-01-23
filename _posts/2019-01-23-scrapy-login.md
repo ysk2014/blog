@@ -9,7 +9,7 @@ categories: [scrapy]
 
 1、首先我们改写 start_reqeusts 方法，直接 GET 登录页面的 HTML 信息（有些人说你不是 POST 登录么，干嘛还 GET，别着急，你得先 GET 到登录页面的登录信息，才知道登录的账户、密码等怎么提交，往哪里提交）
 
-2、start*request 方法 GET 到数据后，用 callback 参数，执行拿到 response 后要接下来执行哪个方法，然后在 login 方法里面写入登录用户名和密码（还是老样子，一定要用 dict），然后只用 Request 子类 scrapy.FormRequest 这个方法提交数据，这我一个的是 FormRequest.from_response 方 m*法。
+2、start_request 方法 GET 到数据后，用 callback 参数，执行拿到 response 后要接下来执行哪个方法，然后在 login 方法里面写入登录用户名和密码（还是老样子，一定要用 dict），然后只用 Request 子类 scrapy.FormRequest 这个方法提交数据，这我一个的是 FormRequest.from_response 方法。
 
 有些人会问，这个 from\_\_response 的基本使用是条用是需要传入一个 response 对象作为第一个参数，这个方法会从页面中 form 表单中，帮助用户创建 FormRequest 对象，最最最最重要的是它会帮你把隐藏的 input 标签中的信息自动跳入表达，使用这个中方法，我们直接写用户名和密码即可，我们在最后面再介绍传统方法。
 
@@ -24,7 +24,7 @@ from scrapy import FormRequest,Request
 
 class ExampleLoginSpider(scrapy.Spider):
     name = "login_"
-    allowed_domains = ["example.webscraping.com"]
+    allowed_domains = ["example.demo.com"]
     start_urls = ['http://example.demo.com/user/profile']
     login_url = 'http://example.demo.com/places/default/user/login'
 
