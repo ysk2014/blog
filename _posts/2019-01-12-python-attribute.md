@@ -1,10 +1,13 @@
 ---
-layout: post
+layout: blog
 title: 'python的类属性和实例属性区别'
 excerpt: 'python'
-categories: [python基础知识]
-image:
-    feature: python-name.png
+category: python
+istop: true
+isLast: true
+code: true
+date: 2019-01-12
+background-image: https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=300&q=80
 ---
 
 ### 类属性

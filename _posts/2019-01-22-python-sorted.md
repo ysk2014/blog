@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: blog
 title: 'Python列表排序方法sort、sorted技巧篇'
 excerpt: 'python基础知识'
-categories: [python基础知识]
+category: python
+istop: true
+isLast: true
+code: true
+date: 2019-01-22
+background-image: https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=300&q=80
 ---
 
 python list 内置 sort()方法用来排序，也可以用内置的全局 sorted()方法来对可迭代的序列排序生成新的序列

@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: blog
 title: 'python爬虫之scrapy模拟登录'
 excerpt: 'scrapy'
-categories: [scrapy]
+category: scrapy
+istop: true
+isLast: true
+code: true
+date: 2019-01-23
+background-image: https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=300&q=80
 ---
 
 我们在这里做了一个简单的介绍，我们都知道 scrapy 的基本请求流程是 start_request 方法遍历 start_urls 列表，然后 make_requests_from_url 方法，里面执行 Request 方法，请求 start_urls 里面的地址，但是这里我们用的不再是 GET 方法，而用的是 POST 方法，也就常说的登录。
