@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-12
 background-image: style/images/python.png
+background-external: false
 ---
 
 ### 类属性

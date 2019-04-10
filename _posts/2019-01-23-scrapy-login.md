@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-23
 background-image: style/images/scrapy.png
+background-external: false
 ---
 
 我们在这里做了一个简单的介绍，我们都知道 scrapy 的基本请求流程是 start_request 方法遍历 start_urls 列表，然后 make_requests_from_url 方法，里面执行 Request 方法，请求 start_urls 里面的地址，但是这里我们用的不再是 GET 方法，而用的是 POST 方法，也就常说的登录。

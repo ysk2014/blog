@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-23
 background-image: style/images/python.png
+background-external: false
 ---
 
 用 Python Shell 设置或获取环境变量的方法：

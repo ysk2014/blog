@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-14
 background-image: style/images/python.png
+background-external: false
 ---
 
 下面的列子就明白了：
