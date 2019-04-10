@@ -4,6 +4,8 @@ description: '侃侃理想、谈谈人生、敲敲代码。'
 url: 'https://ysk2014.github.io/blog/' # 域名
 signoff: # Your name
 share: true
+
+timezone: Europe/Paris
 # 分页
 paginate: 15
 paginate_path: 'page:num'
@@ -36,3 +38,13 @@ defaults:
           layout: 'default'
 
 theme: jekyll-theme-slate
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
