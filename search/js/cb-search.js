@@ -66,7 +66,7 @@ $(document).ready(function() {
             for (var index in data.data) {
                 var item = data.data[index];
                 names.push(item.title);
-                urls.push(item.url);
+                urls.push('https://ysk2014.github.io/blog' + item.url);
             }
 
             $('#cb-search-content').typeahead({
