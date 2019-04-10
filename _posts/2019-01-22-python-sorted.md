@@ -7,7 +7,7 @@ istop: true
 isLast: true
 code: true
 date: 2019-01-22
-background-image: ../style/images/python.png
+background-image: style/images/python.png
 ---
 
 python list 内置 sort()方法用来排序，也可以用内置的全局 sorted()方法来对可迭代的序列排序生成新的序列
