@@ -7,7 +7,7 @@ istop: true
 isLast: true
 code: true
 date: 2019-01-23
-background-image: ../img/python.png
+background-image: ../style/images/python.png
 ---
 
 用 Python Shell 设置或获取环境变量的方法：

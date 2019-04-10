@@ -7,7 +7,7 @@ istop: true
 isLast: true
 code: true
 date: 2019-01-14
-background-image: ../img/python.png
+background-image: ../style/images/python.png
 ---
 
 下面的列子就明白了：

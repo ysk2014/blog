@@ -7,7 +7,7 @@ istop: true
 isLast: true
 code: true
 date: 2019-01-12
-background-image: ../img/python.png
+background-image: ../style/images/python.png
 ---
 
 ### 类属性
