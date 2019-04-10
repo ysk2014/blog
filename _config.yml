@@ -18,9 +18,13 @@ timezone: Europe/Paris
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: <!--more-->
-permalink: /articles/:year-:month/:title
+# permalink: /articles/:year-:month/:title
 
 url: "https://ysk2014.github.io/blog/"
+
+# gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
 kramdown:
     auto_ids: true

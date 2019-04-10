@@ -4,7 +4,7 @@
     "description": "I'm planning to refactor Leonids theme!!!",
     "main": "index.js",
     "scripts": {
-        "start": "bundle exec jekyll serve"
+        "start": "bundle exec jekyll serve --livereload"
     },
     "repository": {
         "type": "git",
