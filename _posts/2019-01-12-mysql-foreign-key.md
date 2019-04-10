@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-12
 background-image: https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=300&q=80
+background-external: true
 ---
 
 `On Delete` 和 `On Update` 都有 `Restrict`, `No Action`, `CasCade`, `Set Null` 属性，现在分别对他们的属性含意做个解释。

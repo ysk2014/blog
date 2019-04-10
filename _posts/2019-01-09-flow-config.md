@@ -8,6 +8,7 @@ isLast: true
 code: true
 date: 2019-01-09
 background-image: https://images.unsplash.com/photo-1533234427049-9e9bb093186d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&h=500&q=80
+background-external: true
 ---
 
 ### 配置大纲：flow.config.js
