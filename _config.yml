@@ -1,8 +1,7 @@
 --- # ----------- CONFIGURABLE START -----------
 title: 'Cluas的博客'
 description: '侃侃理想、谈谈人生、敲敲代码。'
-url: https://ysk2014.github.io
-baseurl: '/blog' # 域名
+url: https://ysk2014.github.io/blog
 signoff: # Your name
 share: true
 
