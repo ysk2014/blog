@@ -82,4 +82,3 @@ $(document).ready(function() {
         }
     });
 });
-console.log('By LiberXue');
